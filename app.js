@@ -7,6 +7,12 @@ const express = require('express')
 const app = express()
 const PORT = process.env.PORT || 3000
 
+app.get('/', (req, res) => {
+    matoPrat.getMenu().then((menuWeekly) => {
+        res.send('Cajjans VPS')
+    })
+})
+
 app.get('/matoprat/veckomeny', (req, res) => {
     matoPrat.getMenu().then((menuWeekly) => {
         res.send(menuWeekly)
