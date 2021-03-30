@@ -5,7 +5,7 @@ const matoPrat = require ('./scrapes/matoPrat')
 
 const express = require('express')
 const app = express()
-const port = 3000
+const PORT = process.env.PORT || 3000
 
 app.get('/matoprat/veckomeny', (req, res) => {
     matoPrat.getMenu().then((menuWeekly) => {
@@ -19,6 +19,6 @@ app.get('/lillagomman/veckomeny', (req, res) => {
     })
 })
 
-app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
+app.listen(PORT, () => {
+  console.log(`Example app listening at http://localhost:${PORT}`)
 })
