@@ -1,0 +1,44 @@
+Namn: Stora torget
+Hemsida:
+Menytyp: Facebook
+Går att skrapa lätt: Nej?
+Lösning: 
+
+Annat:
+
+##############################
+
+Namn: Mat o Prat
+Hemsida: http://www.matoprat.nu/veckans-lunch
+Menytyp: Hemsida
+Går att skrapa lätt: Ja
+Lösning:  
+
+Annat:
+Visar dagens för hela veckan.
+Kött/pasta och Fisk
+
+##############################
+
+Namn: Lilla Gömman
+Hemsida: https://lillagömman.se/lunchbuffe/
+Menytyp: Hemsida: Veckovis
+Går att skrapa lätt: Kanske
+Lösning:  
+
+Annat:
+Verkar vara lite olika standardrätter för hela veckan (Typ Pizzabuffe)
+
+##############################
+
+Namn: Gillet6
+Hemsida: https://gillet6.se/brasseriet/
+Menytyp: Hemsida: Veckovis
+Går att skrapa lätt: Ja
+Lösning:  
+
+Annat:
+
+
+##############################
+
