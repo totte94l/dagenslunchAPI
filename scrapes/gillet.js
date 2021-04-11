@@ -19,7 +19,6 @@ module.exports = {
                     items: items
                 })
             }
-            
             return gillet;
         })
     }

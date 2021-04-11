@@ -7,6 +7,9 @@ const lillaGomman = require('./scrapes/lillaGomman')
 const matoPrat = require ('./scrapes/matoPrat')
 const gillet = require('./scrapes/gillet')
 
+//var db = require('./lib/db')
+var cron = require('./cron/scrape');
+
 app.get('/', (req, res) => {
     res.send('Cajjans VPS')
 })
@@ -30,5 +33,5 @@ app.get('/gillet/veckomeny', (req, res) => {
 })
 
 app.listen(PORT, () => {
-  console.log(`Example app listening at http://localhost:${PORT}`)
+  console.log(`%cApp listening on http://localhost:${PORT}`, "font-size: 16px; color: green;")
 })
